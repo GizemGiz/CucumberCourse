@@ -26,7 +26,7 @@ public class GoogleSearchSteps {
         WebElement searchInput = driver.findElement(By.cssSelector("input[title='Search']"));
         searchInput.sendKeys("Cucumber");
 
-        //WebElement googleSearchButton = driver.findElement(By.cssSelector("input[value='Google Search']"));
+        ///WebElement googleSearchButton = driver.findElement(By.cssSelector("input[value='Google Search']"));
         //googleSearchButton.click();
 
         searchInput.sendKeys(Keys.ENTER); //hit ENTER our on keyboard
