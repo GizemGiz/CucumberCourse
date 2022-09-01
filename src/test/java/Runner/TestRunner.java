@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = {"src/main/resources/FeatureFile/Login.feature"},// Location of Feature files we want to execute
-        glue = {"StepDefinition"} // glue is for StepDefinition
+        glue = {"StepDefinition"} // glue is Location  of  StepDefinition
 
 
 )
